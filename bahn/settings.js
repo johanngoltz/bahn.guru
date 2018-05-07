@@ -7,9 +7,15 @@ module.exports = {
     ogTitle: 'bahn.guru - der Bahn-Preiskalender',
     ogDescription: 'Der Bahn-Guru hilft dir dabei, die günstigsten Sparpreise der Deutschen Bahn zu finden. 🚅',
     ogImage: 'https://bahn.guru/assets/screenshot.png',
+    originShort: 'Ab',
     originPlaceholder: 'Startbahnhof',
+    destinationShort: 'An',
     destinationPlaceholder: 'Zielbahnhof',
+    submit: 'Suchen',
     shopLinkTitle: 'zum Bahn-Shop',
+    mainTitle: 'Preiskalender',
+    faqTitle: 'FAQ',
+    legalTitle: 'Impressum',
     faq: [
         {
     		title: 'Ist dies eine offizielle Website der Deutschen Bahn?',

@@ -7,9 +7,15 @@ module.exports = {
     ogTitle: 'bus.bahn.guru - der Bus-Preiskalender',
     ogDescription: 'Der Bahn-Guru für Busse hilft dir dabei, die günstigsten Sparpreise von Flixbus/Meinfernbus zu finden. 🚌',
     ogImage: 'https://bahn.guru/assets/screenshot.png',
+    originShort: 'Ab',
     originPlaceholder: 'Start',
+    destinationShort: 'An',
     destinationPlaceholder: 'Ziel',
+    submit: 'Suchen',
     shopLinkTitle: 'zum Flixbus-Shop',
+    mainTitle: 'Preiskalender',
+    faqTitle: 'FAQ',
+    legalTitle: 'Impressum',
     faq: [
         {
     		title: 'Ist dies eine offizielle Website von Flixbus?',
