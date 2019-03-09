@@ -64,6 +64,6 @@
 		"eslint-plugin-standard": "^4.0.0"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=11"
 	}
 }
