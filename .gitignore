@@ -13,3 +13,5 @@
 /scripts/deploy
 /assets/scripts/bundle
 /*.log
+
+/.vscode
