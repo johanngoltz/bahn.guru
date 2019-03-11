@@ -1,12 +1,3 @@
-#page{
-    min-width: 90%;
-    max-width: 95%;
-}
-
-#route{
-    font-weight: bold;
-}
-
 #calendar{
     width: 100%;
     max-width: 900px;
