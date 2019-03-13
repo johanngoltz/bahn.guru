@@ -2,6 +2,7 @@
 	height: 400px;
 	display: flex;
 	flex-direction: row;
+	margin-top: 5rem;
 }
 
 #graph .axis {
@@ -9,11 +10,11 @@
 }
 
 #graph .day {
-	min-width: 2rem;
+	width: 2rem;
 	margin: 0 .2rem;
 	display: flex;
-	flex-direction: column-reverse;
-	justify-content: flex-start;
+	flex-direction: column;
+	justify-content: flex-end;
 	text-align: center;
 }
 
@@ -50,13 +51,16 @@
 	color: black;
 	position: absolute;
 	bottom: 100%;
-	left: -50%;
+	left: 0;
+	right: 0;
 	padding-bottom: .7rem;
 	z-index: 999;
+	align-items: center;
+	flex-direction: column;
 }
 
 #graph .bar:hover ~ .overlay {
-	display: initial;
+	display: flex;
 }
 
 #graph .day-connector {
@@ -64,4 +68,9 @@
 	bottom: 1rem;
 	height: .7rem;
 	background-color: #77777777;
+}
+
+#graph .day .label {
+	height: 1em;
+	overflow: visible;
 }
