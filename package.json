@@ -30,7 +30,8 @@
 		"check-deps": "depcheck . --ignore-dirs=bundle --ignores=browserify",
 		"fix": "eslint --ignore-pattern /node_modules/ --ignore-pattern /assets/scripts/bundle/ --fix .",
 		"lint": "eslint  --ignore-pattern /node_modules/ --ignore-pattern /assets/scripts/bundle/ .",
-		"test": "npm run lint && npm run check-deps"
+		"test": "npm run lint && npm run check-deps",
+		"start": "node index"
 	},
 	"dependencies": {
 		"apicache": "^1.2.3",
