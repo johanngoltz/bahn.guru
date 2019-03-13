@@ -5,11 +5,11 @@
 }
 
 #graph .axis {
-	border: 1rem solid #777;	
+	border: 1rem solid #777;
 }
 
 #graph .day {
-	min-width: 1.5rem;
+	min-width: 2rem;
 	margin: 0 .2rem;
 	display: flex;
 	flex-direction: column-reverse;
@@ -23,18 +23,15 @@
 	border: .1rem solid #777;
 	border-bottom: none;
 	transition: background-color .5s;
+	height: 100%;
 }
 
 #graph .bar.cheapest {
-	background-color: hsl(168, 100%, 33%);	
+	background-color: hsl(168, 100%, 33%);
 }
 
 #graph .bar:hover {
 	background-color: hsl(180, 100%, 20%);
-}
-
-#graph .price {
-	padding: .7rem;
 }
 
 #graph .duration {
@@ -44,15 +41,27 @@
 	overflow: hidden;
 }
 
+#graph .bar-with-overlay {
+	position: relative;
+}
+
 #graph .overlay {
 	display: none;
 	color: black;
+	position: absolute;
+	bottom: 100%;
+	left: -50%;
+	padding-bottom: .7rem;
+	z-index: 999;
 }
 
-#graph .bar:hover + .overlay {
+#graph .bar:hover ~ .overlay {
 	display: initial;
 }
 
-#graph .day .label {
-
+#graph .day-connector {
+	left: 50%;
+	bottom: 1rem;
+	height: .7rem;
+	background-color: #77777777;
 }
