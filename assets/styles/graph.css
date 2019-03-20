@@ -18,6 +18,10 @@
 	text-align: center;
 }
 
+#graph .day.weekend {
+	background-color: #eee;
+}
+
 #graph .bar {
 	background-color: hsl(180, 100%, 26%);
 	color: #eee;
@@ -78,11 +82,11 @@
 	flex-shrink: 0;
 }
 
-#graph .day-connector-end {	
-	width: 0; 
-	height: 0; 
+#graph .day-connector-end {
+	width: 0;
+	height: 0;
 	border-top: .7rem solid transparent;
-	border-bottom: .7rem solid transparent;	
+	border-bottom: .7rem solid transparent;
 	border-left: .7rem solid #777777;
 	transform: translateY(-.35rem);
 }
