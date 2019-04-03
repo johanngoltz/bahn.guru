@@ -11,7 +11,7 @@
 
 #graph .day {
 	width: 2rem;
-	padding: 0 .2rem;
+	padding: .2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -57,6 +57,10 @@
 	z-index: 999;
 }
 
+#graph .bar:hover ~ .overlay {
+	display: flex;
+}
+
 #graph .journey-details {
 	align-items: center;
 	flex-direction: column;
@@ -64,10 +68,6 @@
 	left: 0;
 	right: 0;
 	padding-bottom: .7rem;
-}
-
-#graph .bar:hover ~ .overlay {
-	display: flex;
 }
 
 #graph .day-connector {
@@ -78,7 +78,7 @@
 }
 
 #graph .day-connector-main {
-	background-color: #777777;
+	background-color: #777;
 	flex-shrink: 0;
 }
 
@@ -87,7 +87,7 @@
 	height: 0;
 	border-top: .7rem solid transparent;
 	border-bottom: .7rem solid transparent;
-	border-left: .7rem solid #777777;
+	border-left: .7rem solid #777;
 	transform: translateY(-.35rem);
 }
 
